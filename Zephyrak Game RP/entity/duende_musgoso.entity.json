@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nk:duende_musgoso",
+
+      "materials": {
+        "default": "entity_alphatest"
+      },
+
+      "textures": {
+        "default": "textures/entity/duende_musgoso"
+      },
+
+      "geometry": {
+        "default": "geometry.duende_musgoso"
+      },
+
+      "animations": {
+        "idle": "animation.duende_musgoso.idle",
+        "walk": "animation.duende_musgoso.walk",
+        "move_controller": "controller.animation.duende_musgoso.move"
+      },
+
+      "scripts": {
+        "animate": [
+          "move_controller"
+        ]
+      },
+
+      "render_controllers": [
+        "controller.render.default"
+      ],
+
+      "spawn_egg": {
+        "base_color": "#3c8c3e",
+        "overlay_color": "#b2b62e"
+      }
+    }
+  }
+}

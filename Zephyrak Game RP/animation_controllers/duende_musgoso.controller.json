@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.duende_musgoso.move": {
+			"initial_state": "idle",
+			"states": {
+
+				"idle": {
+					"animations": [
+						"animation.duende_musgoso.idle"
+					],
+					"transitions": [
+						{ "walk": "query.modified_move_speed > 0.1" }
+					]
+				},
+
+				"walk": {
+					"animations": [
+						"animation.duende_musgoso.walk"
+					],
+					"transitions": [
+						{ "idle": "query.modified_move_speed <= 0.1" }
+					]
+				}
+
+			}
+		}
+	}
+}

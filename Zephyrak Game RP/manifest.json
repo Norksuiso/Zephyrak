@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Zephyrak Game",
+		"description": "Zephyrak Game Resource Pack",
+		"uuid": "835188ab-6992-8c7b-c5d7-2ff9559681cb",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Norksuiso", "Sptyme"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Zephyrak Game",
+			"type": "resources",
+			"uuid": "01430a32-08cc-9f54-0d69-a344fe146dac",
+			"version": [1, 0, 0]
+		}
+	]
+}
