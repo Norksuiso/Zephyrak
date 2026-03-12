@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Zephyrak Game",
+		"description": "Zephyrak Game Behavior Pack",
+		"uuid": "9c93e4ce-be43-9b5c-84e2-4ebd22a21fa7",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"metadata": {
+		"authors": ["Norksuiso", "Sptyme"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"type": "data",
+			"uuid": "dec22ca8-1eda-7762-9c4a-0e10345a3eac",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "9f6a2e4c-3c18-4b79-b6f4-5f2d1e7a2c33",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "835188ab-6992-8c7b-c5d7-2ff9559681cb",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0"
+		}
+	]
+}
